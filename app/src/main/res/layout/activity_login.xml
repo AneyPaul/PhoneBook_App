@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+
+    <TextView android:text = "Login"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "35dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_userID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+    <EditText
+        android:id="@+id/edit_userID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:focusable="true"
+        android:hint="Enter Email ID"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="@color/edittext_hint_color"
+        android:textColorLink="@color/edittext_link_color"
+        />
+
+</android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp">
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/edit_userID"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/edit_userID"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/edittext_hint_color"
+        android:textColorLink="@color/edittext_link_color"
+        />
+            </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="35dp"
+        android:text="LOG IN"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/round_button"
+        />
+
+    <TextView android:text = "FORGOT PASSWORD?"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview_forgot"
+        android:textSize = "15dp"
+        android:layout_below="@+id/button_login"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#009688"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="CREATE NEW ACCOUNT"
+        android:id="@+id/button_Reg"
+        android:layout_below="@+id/textview_forgot"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/round_button"
+
+        />
+
+</LinearLayout>
+</RelativeLayout>
+    </ScrollView>

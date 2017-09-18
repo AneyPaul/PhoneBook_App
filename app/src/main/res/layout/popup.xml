@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@color/deepPurple5"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="btnCall"
+        android:id="@+id/btnCall"
+        android:background="@color/deepPurple5"
+        android:textColor="@color/deepPurple1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:text="CALL"/>
+
+    <Button
+        android:onClick="btnSMS"
+        android:id="@+id/btnSMS"
+        android:background="@color/deepPurple5"
+        android:textColor="@color/deepPurple2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:text="Send a message"/>
+
+    <Button
+        android:onClick="btnEmail"
+        android:id="@+id/btnEmail"
+        android:background="@color/deepPurple5"
+        android:textColor="@color/deepPurple2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:text="Contact via Email"/>
+
+    <Button
+        android:onClick="btnDelete"
+        android:id="@+id/btnDelete"
+        android:background="@color/deepPurple5"
+        android:textColor="@color/deepPurple2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:width="200dp"
+        android:text="Delete"/>
+
+
+
+    <Button
+        android:onClick="btnExitClicked"
+        android:id="@+id/btnExit"
+        android:background="@color/deepPurple5"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:text="Exit"/>
+</RelativeLayout>

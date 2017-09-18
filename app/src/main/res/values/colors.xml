@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#076051</color>
+    <color name="colorAccent">#5A6978</color>
+
+    <color name="back_color">#cfd8dc</color>
+    <color name="button_color">#009688</color>
+    <color name="button_text_color">#FFFFFF</color>
+
+    <color name="edittext_link_color">#C0CCDA</color>
+    <color name="edittext_hint_color">#5A6978</color>
+
+
+    <color name="deepPurple1">#311B92</color>
+    <color name="deepPurple2">#512DA8</color>
+    <color name="deepPurple3">#673AB7</color>
+    <color name="deepPurple4">#9575CD</color>
+    <color name="deepPurple5">#D1C4E9</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+</resources>
